@@ -15,6 +15,12 @@
 		CF5D02F620E36B7300707F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5D02F420E36B7300707F6D /* LaunchScreen.storyboard */; };
 		CF5D030120E36B7300707F6D /* LRxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5D030020E36B7300707F6D /* LRxSwiftTests.swift */; };
 		CF5D030C20E36B7300707F6D /* LRxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5D030B20E36B7300707F6D /* LRxSwiftUITests.swift */; };
+		CF5D031F20E371E100707F6D /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5D031E20E371E100707F6D /* MusicListViewModel.swift */; };
+		CF5D032020E371E100707F6D /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5D031E20E371E100707F6D /* MusicListViewModel.swift */; };
+		CF5D032120E371E100707F6D /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5D031E20E371E100707F6D /* MusicListViewModel.swift */; };
+		CF5D032320E3724200707F6D /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5D032220E3724200707F6D /* Music.swift */; };
+		CF5D032420E3724200707F6D /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5D032220E3724200707F6D /* Music.swift */; };
+		CF5D032520E3724200707F6D /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5D032220E3724200707F6D /* Music.swift */; };
 		FE7B0B33E56CCD0433FFDE4E /* libPods-LRxSwiftTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 080A94BE5B78CDC46BF54CD4 /* libPods-LRxSwiftTests.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +61,8 @@
 		CF5D030720E36B7300707F6D /* LRxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRxSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF5D030B20E36B7300707F6D /* LRxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LRxSwiftUITests.swift; sourceTree = "<group>"; };
 		CF5D030D20E36B7300707F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5D031E20E371E100707F6D /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
+		CF5D032220E3724200707F6D /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,7 @@
 		CF5D02DF20E36B7100707F6D = {
 			isa = PBXGroup;
 			children = (
+				CF5D031920E3708900707F6D /* Classes */,
 				CF5D02EA20E36B7100707F6D /* LRxSwift */,
 				CF5D02FF20E36B7300707F6D /* LRxSwiftTests */,
 				CF5D030A20E36B7300707F6D /* LRxSwiftUITests */,
@@ -155,6 +164,39 @@
 				CF5D030D20E36B7300707F6D /* Info.plist */,
 			);
 			path = LRxSwiftUITests;
+			sourceTree = "<group>";
+		};
+		CF5D031920E3708900707F6D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D031A20E3717E00707F6D /* Business */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF5D031A20E3717E00707F6D /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D031B20E3718800707F6D /* Music */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		CF5D031B20E3718800707F6D /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D031D20E371B100707F6D /* Model */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		CF5D031D20E371B100707F6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF5D031E20E371E100707F6D /* MusicListViewModel.swift */,
+				CF5D032220E3724200707F6D /* Music.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,6 +373,8 @@
 			files = (
 				CF5D02EE20E36B7100707F6D /* ViewController.swift in Sources */,
 				CF5D02EC20E36B7100707F6D /* AppDelegate.swift in Sources */,
+				CF5D031F20E371E100707F6D /* MusicListViewModel.swift in Sources */,
+				CF5D032320E3724200707F6D /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +382,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5D032020E371E100707F6D /* MusicListViewModel.swift in Sources */,
 				CF5D030120E36B7300707F6D /* LRxSwiftTests.swift in Sources */,
+				CF5D032420E3724200707F6D /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +392,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5D032120E371E100707F6D /* MusicListViewModel.swift in Sources */,
 				CF5D030C20E36B7300707F6D /* LRxSwiftUITests.swift in Sources */,
+				CF5D032520E3724200707F6D /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
