@@ -1,0 +1,6 @@
+module Pods_LRxSwiftTests [system] {
+  umbrella header "Pods-LRxSwiftTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

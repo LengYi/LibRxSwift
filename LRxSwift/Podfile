@@ -1,0 +1,15 @@
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+def commonPod
+	pod 'RxSwift',    '~> 4.0'
+    pod 'RxCocoa',    '~> 4.0'
+end
+
+target 'LRxSwift' do
+	commonPod
+end
+
+target 'LRxSwiftTests' do
+	commonPod
+end

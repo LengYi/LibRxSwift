@@ -1,0 +1,6 @@
+module Pods_LRxSwift [system] {
+  umbrella header "Pods-LRxSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
