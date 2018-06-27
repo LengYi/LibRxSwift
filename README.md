@@ -1,2 +1,5 @@
-# LibRxSwift
-RxSwift使用教程
+# RxSwift
+[源码](https://github.com/ReactiveX/RxSwift)
+
+##工程配置
+
